@@ -38,12 +38,12 @@ This is framed as a **binary classification problem** using structured passenger
 
 ### Option 1: Using pip
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 ### Option 2: Using Conda
-    ```bash
-    conda env create -f environment.yml
-    conda activate spaceship-titanic-env
-    ```
+```bash
+conda env create -f environment.yml
+conda activate spaceship-titanic-env
+```
