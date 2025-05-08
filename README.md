@@ -5,10 +5,27 @@ This project is based on an NLP modeling Kaggle challenge, [Spaceship Titanic Co
 The purpose is to predict whether passengers were transported to an alternate dimension during the accident.  
 This is framed as a **binary classification problem** using structured passenger data.
 
+
 ## Dataset
 
 - Source: [Spaceship Titanic Kaggle Competition](https://www.kaggle.com/competitions/spaceship-titanic)
 - Files: `train.csv` and `test.csv` provided by Kaggle
+
+
+## Setup Instructions
+
+### Option 1: Using pip
+
+```bash
+pip install -r requirements.txt
+```
+
+### Option 2: Using Conda
+```bash
+conda env create -f environment.yml
+conda activate spaceship-titanic-env
+```
+
 
 ## Modeling Approach
 
@@ -26,6 +43,7 @@ This is framed as a **binary classification problem** using structured passenger
   - **F1-Score**
   - Classification reports
 
+
 ## Results
 
 | Model         | Accuracy | F1-Score |
@@ -33,17 +51,4 @@ This is framed as a **binary classification problem** using structured passenger
 | Random Forest | *0.80*   | *0.80*   |
 | XGBoost       | *0.81*   | *0.81*   |
 
-
-## Setup Instructions
-
-### Option 1: Using pip
-
-```bash
-pip install -r requirements.txt
-```
-
-### Option 2: Using Conda
-```bash
-conda env create -f environment.yml
-conda activate spaceship-titanic-env
-```
+- Results submitted to Kaggle are in `submission.csv`
