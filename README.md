@@ -5,6 +5,8 @@ This project is based on an NLP modeling Kaggle challenge, [Spaceship Titanic Co
 The purpose is to predict whether passengers were transported to an alternate dimension during the accident.  
 This is framed as a **binary classification problem** using structured passenger data.
 
+The work for this project can be found in the `project_submission_notebook.ipynb` file.
+
 
 ## Dataset
 
